@@ -10,4 +10,11 @@ router.delete('/:username', deleteUser);
 router.get('/:username', getUserByUsername);
 router.get('/', getAllUsers);
 
+// router.post('/register', authenticateToken, register);
+// router.post('/login', authenticateToken, login);
+// router.put('/:username', authenticateToken, updateUser);
+// router.delete('/:username', authenticateToken, deleteUser);
+// router.get('/:username', authenticateToken, getUserByUsername);
+// router.get('/', authenticateToken, getAllUsers);
+
 export default router;
